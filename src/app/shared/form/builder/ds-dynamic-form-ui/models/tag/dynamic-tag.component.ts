@@ -223,7 +223,7 @@ export class DsDynamicTagComponent extends DsDynamicVocabularyComponent implemen
    * @param event the keyUp event
    */
   onKeyUp(event) {
-    if (event.keyCode === 13 || event.keyCode === 188) {
+    if (event.keyCode === 13 || event.key === ',') {
       event.preventDefault();
       // Key: 'Enter' or ',' or ';'
       this.addTagsToChips();
