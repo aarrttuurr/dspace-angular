@@ -1961,13 +1961,13 @@
 
   "file-section.error.header": "Error obtaining files for this item",
 
-  "footer.copyright": "copyright © 2002-{{ year }}",
+  "footer.copyright": "copyright © 2014-{{ year }}",
 
   "footer.link.accessibility": "Accessibility settings",
 
-  "footer.link.dspace": "DSpace software",
+  "footer.link.dspace": "BSPU Repository",
 
-  "footer.link.lyrasis": "LYRASIS",
+  "footer.link.lyrasis": "BSPU",
 
   "footer.link.cookies": "Cookie settings",
 

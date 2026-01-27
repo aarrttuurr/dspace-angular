@@ -539,7 +539,7 @@
   "admin.access-control.epeople.form.table.name": "Имя",
 
   // "admin.access-control.epeople.form.table.collectionOrCommunity": "Collection/Community",
-  "admin.access-control.epeople.form.table.collectionOrCommunity": "Коллекция/Сообщество",
+  "admin.access-control.epeople.form.table.collectionOrCommunity": "Коллекция/Раздел",
 
   // "admin.access-control.epeople.form.memberOfNoGroups": "This EPerson is not a member of any groups",
   "admin.access-control.epeople.form.memberOfNoGroups": "Пользователь не является членом ни одной группы",
@@ -596,7 +596,7 @@
   "admin.access-control.groups.table.name": "Название",
 
   // "admin.access-control.groups.table.collectionOrCommunity": "Collection/Community",
-  "admin.access-control.groups.table.collectionOrCommunity": "Коллекция/Сообщество",
+  "admin.access-control.groups.table.collectionOrCommunity": "Коллекция/Раздел",
 
   // "admin.access-control.groups.table.members": "Members",
   "admin.access-control.groups.table.members": "Участники",
@@ -638,7 +638,7 @@
   "admin.access-control.groups.form.groupName": "Название группы",
 
   // "admin.access-control.groups.form.groupCommunity": "Community or Collection",
-  "admin.access-control.groups.form.groupCommunity": "Сообщество или коллекция",
+  "admin.access-control.groups.form.groupCommunity": "Раздел или коллекция",
 
   // "admin.access-control.groups.form.groupDescription": "Description",
   "admin.access-control.groups.form.groupDescription": "Описание",
@@ -771,7 +771,7 @@
   "admin.access-control.groups.form.subgroups-list.table.name": "Название",
 
   // "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Collection/Community",
-  "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Коллекция/Сообщество",
+  "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Коллекция/Раздел",
 
   // "admin.access-control.groups.form.subgroups-list.table.edit": "Remove / Add",
   "admin.access-control.groups.form.subgroups-list.table.edit": "Удалить / Добавить",
@@ -825,7 +825,7 @@
   "admin.notifications.source.breadcrumbs": "Контроль качества",
 
   // "admin.access-control.groups.form.tooltip.editGroupPage": "On this page, you can modify the properties and members of a group. In the top section, you can edit the group name and description, unless this is an admin group for a collection or community, in which case the group name and description are auto-generated and cannot be edited. In the following sections, you can edit group membership. See [the wiki](https://wiki.lyrasis.org/display/DSDOC7x/Create+or+manage+a+user+group) for more details.",
-  "admin.access-control.groups.form.tooltip.editGroupPage": "На этой странице вы можете изменять свойства и участников группы. В верхнем разделе можно редактировать имя и описание группы, если это не административная группа коллекции или сообщества — в этом случае имя и описание генерируются автоматически и не подлежат редактированию. В последующих разделах вы можете изменять состав группы. Подробнее см. в [вики](https://wiki.lyrasis.org/display/DSDOC7x/Create+or+manage+a+user+group).",
+  "admin.access-control.groups.form.tooltip.editGroupPage": "На этой странице вы можете изменять свойства и участников группы. В верхнем разделе можно редактировать имя и описание группы, если это не административная группа коллекции или раздела — в этом случае имя и описание генерируются автоматически и не подлежат редактированию. В последующих разделах вы можете изменять состав группы. Подробнее см. в [вики](https://wiki.lyrasis.org/display/DSDOC7x/Create+or+manage+a+user+group).",
 
   // "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "To add or remove an EPerson to/from this group, either click the 'Browse All' button or use the search bar below to search for users (use the dropdown to the left of the search bar to choose whether to search by metadata or by email). Then click the plus icon for each user you wish to add in the list below, or the trash can icon for each user you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages.",
   "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "Чтобы добавить или удалить пользователя из этой группы, нажмите кнопку «Просмотреть все» или используйте панель поиска ниже для поиска пользователей (слева от панели поиска выберите, искать по метаданным или по электронной почте). Затем нажмите значок плюса рядом с пользователем, которого хотите добавить, или значок корзины рядом с пользователем, которого хотите удалить. Список может содержать несколько страниц — используйте навигацию под списком для перехода между страницами.",
@@ -852,7 +852,7 @@
   "admin.reports.collections.item-results": "Результаты элементов",
 
   // "admin.reports.collections.community": "Community",
-  "admin.reports.collections.community": "Сообщество",
+  "admin.reports.collections.community": "Раздел",
 
   // "admin.reports.collections.collection": "Collection",
   "admin.reports.collections.collection": "Коллекция",
@@ -1740,7 +1740,7 @@
   "collection.create.notifications.success": "Коллекция успешно создана",
 
   // "collection.create.sub-head": "Create a Collection for Community {{ parent }}",
-  "collection.create.sub-head": "Создать коллекцию для сообщества {{ parent }}",
+  "collection.create.sub-head": "Создать коллекцию для раздела {{ parent }}",
 
   // "collection.curate.header": "Curate Collection: {{collection}}",
   "collection.curate.header": "Кураторская коллекция: {{ collection }}",
@@ -2155,13 +2155,13 @@
   "collection.source.update.notifications.error.title": "Ошибка сервера",
 
   // "communityList.breadcrumbs": "Community List",
-  "communityList.breadcrumbs": "Список сообществ",
+  "communityList.breadcrumbs": "Список разделов",
 
   // "communityList.tabTitle": "Community List",
-  "communityList.tabTitle": "Список сообществ",
+  "communityList.tabTitle": "Список разделов",
 
   // "communityList.title": "List of Communities",
-  "communityList.title": "Список сообществ",
+  "communityList.title": "Список разделов",
 
   // "communityList.showMore": "Show More",
   "communityList.showMore": "Показать больше",
@@ -2173,26 +2173,26 @@
   "communityList.collapse": "Свернуть {{ name }}",
 
   // "community.browse.logo": "Browse for a community logo",
-  "community.browse.logo": "Выбрать логотип сообщества",
+  "community.browse.logo": "Выбрать логотип разделаа",
 
   // "community.subcoms-cols.breadcrumbs": "Subcommunities and Collections",
-  "community.subcoms-cols.breadcrumbs": "Подсообщества и коллекции",
+  "community.subcoms-cols.breadcrumbs": "Подразделы и коллекции",
 
   // "community.create.breadcrumbs": "Create Community",
-  "community.create.breadcrumbs": "Создать сообщество",
+  "community.create.breadcrumbs": "Создать раздел",
 
   // "community.create.head": "Create a Community",
-  "community.create.head": "Создать сообщество",
+  "community.create.head": "Создать раздел",
 
   // "community.create.notifications.success": "Successfully created the community",
   // TODO Source message changed - Revise the translation
-  "community.create.notifications.success": "Сообщество успешно создано",
+  "community.create.notifications.success": "Раздел успешно создан",
 
   // "community.create.sub-head": "Create a Sub-Community for Community {{ parent }}",
-  "community.create.sub-head": "Создать подсообщество для сообщества {{ parent }}",
+  "community.create.sub-head": "Создать подраздел для раздела {{ parent }}",
 
   // "community.curate.header": "Curate Community: {{community}}",
-  "community.curate.header": "Управление сообществом: {{ community }}",
+  "community.curate.header": "Управление разделом: {{ community }}",
 
   // "community.delete.cancel": "Cancel",
   "community.delete.cancel": "Отмена",
@@ -2204,25 +2204,25 @@
   "community.delete.processing": "Удаление...",
 
   // "community.delete.head": "Delete Community",
-  "community.delete.head": "Удалить сообщество",
+  "community.delete.head": "Удалить раздел",
 
   // "community.delete.notification.fail": "Community could not be deleted",
-  "community.delete.notification.fail": "Не удалось удалить сообщество",
+  "community.delete.notification.fail": "Не удалось удалить раздел",
 
   // "community.delete.notification.success": "Successfully deleted community",
-  "community.delete.notification.success": "Сообщество успешно удалено",
+  "community.delete.notification.success": "Раздел успешно удален",
 
   // "community.delete.text": "Are you sure you want to delete community \"{{ dso }}\"",
-  "community.delete.text": "Вы уверены, что хотите удалить сообщество «{{ dso }}»?",
+  "community.delete.text": "Вы уверены, что хотите удалить раздел «{{ dso }}»?",
 
   // "community.edit.delete": "Delete this community",
-  "community.edit.delete": "Удалить это сообщество",
+  "community.edit.delete": "Удалить это раздел",
 
   // "community.edit.head": "Edit Community",
-  "community.edit.head": "Редактировать сообщество",
+  "community.edit.head": "Редактировать раздел",
 
   // "community.edit.breadcrumbs": "Edit Community",
-  "community.edit.breadcrumbs": "Редактировать сообщество",
+  "community.edit.breadcrumbs": "Редактировать раздел",
 
   // "community.edit.logo.delete.title": "Delete logo",
   "community.edit.logo.delete.title": "Удалить логотип",
@@ -2237,35 +2237,35 @@
   "community-collection.edit.logo.delete-undo.title": "Отменить удаление",
 
   // "community.edit.logo.label": "Community logo",
-  "community.edit.logo.label": "Логотип сообщества",
+  "community.edit.logo.label": "Логотип раздела",
 
   // "community.edit.logo.notifications.add.error": "Uploading community logo failed. Please verify the content before retrying.",
-  "community.edit.logo.notifications.add.error": "Ошибка загрузки логотипа сообщества. Пожалуйста, проверьте содержимое и повторите попытку.",
+  "community.edit.logo.notifications.add.error": "Ошибка загрузки логотипа раздела. Пожалуйста, проверьте содержимое и повторите попытку.",
 
   // "community.edit.logo.notifications.add.success": "Upload community logo successful.",
-  "community.edit.logo.notifications.add.success": "Логотип сообщества успешно загружен.",
+  "community.edit.logo.notifications.add.success": "Логотип раздела успешно загружен.",
 
   // "community.edit.logo.notifications.delete.success.title": "Logo deleted",
   "community.edit.logo.notifications.delete.success.title": "Логотип удалён",
 
   // "community.edit.logo.notifications.delete.success.content": "Successfully deleted the community's logo",
-  "community.edit.logo.notifications.delete.success.content": "Логотип сообщества успешно удалён.",
+  "community.edit.logo.notifications.delete.success.content": "Логотип раздела успешно удалён.",
 
   // "community.edit.logo.notifications.delete.error.title": "Error deleting logo",
   "community.edit.logo.notifications.delete.error.title": "Ошибка при удалении логотипа",
 
   // "community.edit.logo.upload": "Drop a community logo to upload",
-  "community.edit.logo.upload": "Перетащите логотип сообщества для загрузки",
+  "community.edit.logo.upload": "Перетащите логотип раздела для загрузки",
 
   // "community.edit.notifications.success": "Successfully edited the community",
   // TODO Source message changed - Revise the translation
-  "community.edit.notifications.success": "Сообщество успешно отредактировано",
+  "community.edit.notifications.success": "Раздел успешно отредактирован",
 
   // "community.edit.notifications.unauthorized": "You do not have privileges to make this change",
   "community.edit.notifications.unauthorized": "У вас нет прав для внесения изменений",
 
   // "community.edit.notifications.error": "An error occurred while editing the community",
-  "community.edit.notifications.error": "Произошла ошибка при редактировании сообщества.",
+  "community.edit.notifications.error": "Произошла ошибка при редактировании раздела.",
 
   // "community.edit.return": "Back",
   "community.edit.return": "Назад",
@@ -2274,37 +2274,37 @@
   "community.edit.tabs.curate.head": "Управление",
 
   // "community.edit.tabs.curate.title": "Community Edit - Curate",
-  "community.edit.tabs.curate.title": "Редактирование сообщества — управление",
+  "community.edit.tabs.curate.title": "Редактирование раздела — управление",
 
   // "community.edit.tabs.access-control.head": "Access Control",
   "community.edit.tabs.access-control.head": "Контроль доступа",
 
   // "community.edit.tabs.access-control.title": "Community Edit - Access Control",
-  "community.edit.tabs.access-control.title": "Редактирование сообщества: контроль доступа",
+  "community.edit.tabs.access-control.title": "Редактирование раздела: контроль доступа",
 
   // "community.edit.tabs.metadata.head": "Edit Metadata",
   "community.edit.tabs.metadata.head": "Редактировать метаданные",
 
   // "community.edit.tabs.metadata.title": "Community Edit - Metadata",
-  "community.edit.tabs.metadata.title": "Редактирование сообщества: метаданные",
+  "community.edit.tabs.metadata.title": "Редактирование раздела: метаданные",
 
   // "community.edit.tabs.roles.head": "Assign Roles",
   "community.edit.tabs.roles.head": "Назначить роли",
 
   // "community.edit.tabs.roles.title": "Community Edit - Roles",
-  "community.edit.tabs.roles.title": "Редактирование сообщества: роли",
+  "community.edit.tabs.roles.title": "Редактирование раздела: роли",
 
   // "community.edit.tabs.authorizations.head": "Authorizations",
   "community.edit.tabs.authorizations.head": "Авторизации",
 
   // "community.edit.tabs.authorizations.title": "Community Edit - Authorizations",
-  "community.edit.tabs.authorizations.title": "Редактирование сообщества: авторизации",
+  "community.edit.tabs.authorizations.title": "Редактирование раздела: авторизации",
 
   // "community.listelement.badge": "Community",
-  "community.listelement.badge": "Сообщество",
+  "community.listelement.badge": "Раздел",
 
   // "community.logo": "Community logo",
-  "community.logo": "Логотип сообщества",
+  "community.logo": "Логотип раздела",
 
   // "comcol-role.edit.no-group": "None",
   "comcol-role.edit.no-group": "Нет",
@@ -2347,7 +2347,7 @@
   "comcol-role.edit.collection-admin.name": "Администраторы",
 
   // "comcol-role.edit.community-admin.description": "Community administrators can create sub-communities or collections, and manage or assign management for those sub-communities or collections. In addition, they decide who can submit items to any sub-collections, edit item metadata (after submission), and add (map) existing items from other collections (subject to authorization).",
-  "comcol-role.edit.community-admin.description": "Администраторы сообщества могут создавать подсообщества или коллекции, а также управлять ими или назначать управление. Они также решают, кто может отправлять элементы в подколлекции, редактировать метаданные элементов (после отправки) и добавлять (сопоставлять) существующие элементы из других коллекций (с учетом авторизации).",
+  "comcol-role.edit.community-admin.description": "Администраторы раздела могут создавать подраздела или коллекции, а также управлять ими или назначать управление. Они также решают, кто может отправлять элементы в подколлекции, редактировать метаданные элементов (после отправки) и добавлять (сопоставлять) существующие элементы из других коллекций (с учетом авторизации).",
 
   // "comcol-role.edit.collection-admin.description": "Collection administrators decide who can submit items to the collection, edit item metadata (after submission), and add (map) existing items from other collections to this collection (subject to authorization for that collection).",
   "comcol-role.edit.collection-admin.description": "Администраторы коллекции решают, кто может отправлять элементы в коллекцию, редактировать метаданные элементов (после отправки) и добавлять (сопоставлять) существующие элементы из других коллекций в эту коллекцию (с учетом авторизации).",
@@ -2407,7 +2407,7 @@
   "community.form.description": "Вводный текст (HTML)",
 
   // "community.form.errors.title.required": "Please enter a community name",
-  "community.form.errors.title.required": "Пожалуйста, введите название сообщества",
+  "community.form.errors.title.required": "Пожалуйста, введите название раздела",
 
   // "community.form.rights": "Copyright text (HTML)",
   "community.form.rights": "Текст авторских прав (HTML)",
@@ -2419,10 +2419,10 @@
   "community.form.title": "Название",
 
   // "community.page.edit": "Edit this community",
-  "community.page.edit": "Редактировать это сообщество",
+  "community.page.edit": "Редактировать это раздел",
 
   // "community.page.handle": "Permanent URI for this community",
-  "community.page.handle": "Постоянный URI для этого сообщества",
+  "community.page.handle": "Постоянный URI для этого раздела",
 
   // "community.page.license": "License",
   "community.page.license": "Лицензия",
@@ -2435,7 +2435,7 @@
   "community.page.options": "Options",
 
   // "community.all-lists.head": "Subcommunities and Collections",
-  "community.all-lists.head": "Подсообщества и коллекции",
+  "community.all-lists.head": "Подразделы и коллекции",
 
   // "community.search.breadcrumbs": "Search",
   // TODO New key - Add a translation
@@ -2446,10 +2446,10 @@
 
   // "community.sub-collection-list.head": "Collections in this community",
   // TODO Source message changed - Revise the translation
-  "community.sub-collection-list.head": "Коллекции в этом сообществе",
+  "community.sub-collection-list.head": "Коллекции в этом разделе",
 
   // "community.sub-community-list.head": "Communities in this Community",
-  "community.sub-community-list.head": "Сообщества в этом сообществе",
+  "community.sub-community-list.head": "Разделы в этом разделе",
 
   // "cookies.consent.accept-all": "Accept all",
   "cookies.consent.accept-all": "Принять всё",
@@ -2672,16 +2672,16 @@
   "dso-selector.create.collection.sub-level": "Создать новую коллекцию в",
 
   // "dso-selector.create.community.head": "New community",
-  "dso-selector.create.community.head": "Новое сообщество",
+  "dso-selector.create.community.head": "Новый раздел",
 
   // "dso-selector.create.community.or-divider": "or",
   "dso-selector.create.community.or-divider": "или",
 
   // "dso-selector.create.community.sub-level": "Create a new community in",
-  "dso-selector.create.community.sub-level": "Создать новое сообщество в",
+  "dso-selector.create.community.sub-level": "Создать новый раздел в",
 
   // "dso-selector.create.community.top-level": "Create a new top-level community",
-  "dso-selector.create.community.top-level": "Создать новое сообщество верхнего уровня",
+  "dso-selector.create.community.top-level": "Создать новый раздел верхнего уровня",
 
   // "dso-selector.create.item.head": "New item",
   "dso-selector.create.item.head": "Новый элемент",
@@ -2696,7 +2696,7 @@
   "dso-selector.edit.collection.head": "Редактировать коллекциюn",
 
   // "dso-selector.edit.community.head": "Edit community",
-  "dso-selector.edit.community.head": "редактировать сообщество",
+  "dso-selector.edit.community.head": "редактировать раздел",
 
   // "dso-selector.edit.item.head": "Edit item",
   "dso-selector.edit.item.head": "Редактировать элемент",
@@ -2720,7 +2720,7 @@
   "dso-selector.placeholder": "Поиск {{ type }}",
 
   // "dso-selector.placeholder.type.community": "community",
-  "dso-selector.placeholder.type.community": "сообщество",
+  "dso-selector.placeholder.type.community": "раздел",
 
   // "dso-selector.placeholder.type.collection": "collection",
   "dso-selector.placeholder.type.collection": "коллекция",
@@ -2741,7 +2741,7 @@
   "dso-selector.set-scope.community.or-divider": "или",
 
   // "dso-selector.set-scope.community.input-header": "Search for a community or collection",
-  "dso-selector.set-scope.community.input-header": "Поиск сообщества или коллекции",
+  "dso-selector.set-scope.community.input-header": "Поиск раздела или коллекции",
 
   // "dso-selector.claim.item.head": "Profile tips",
   "dso-selector.claim.item.head": "Советы по профилю",
@@ -2893,7 +2893,7 @@
   "error.collections": "Ошибка при получении коллекций",
 
   // "error.community": "Error fetching community",
-  "error.community": "Ошибка при получении сообщества",
+  "error.community": "Ошибка при получении раздела",
 
   // "error.identifier": "No item found for the identifier",
   "error.identifier": "Элемент с таким идентификатором не найден",
@@ -2927,13 +2927,13 @@
   "error.sub-collections": "Ошибка при получении подколлекций",
 
   // "error.sub-communities": "Error fetching sub-communities",
-  "error.sub-communities": "Ошибка при получении подсообществ",
+  "error.sub-communities": "Ошибка при получении подразделов",
 
   // "error.submission.sections.init-form-error": "An error occurred during section initialize, please check your input-form configuration. Details are below : <br> <br>",
   "error.submission.sections.init-form-error": "Произошла ошибка при инициализации раздела, проверьте конфигурацию формы ввода. Подробности ниже: <br> <br>",
 
   // "error.top-level-communities": "Error fetching top-level communities",
-  "error.top-level-communities": "Ошибка при получении сообществ верхнего уровня",
+  "error.top-level-communities": "Ошибка при получении разделов верхнего уровня",
 
   // "error.validation.license.notgranted": "You must grant this license to complete your submission. If you are unable to grant this license at this time you may save your work and return later or remove the submission.",
   "error.validation.license.notgranted": "Вы должны принять эту лицензию для завершения отправки. Если вы не можете сделать это сейчас, сохраните работу и вернитесь позже или удалите отправку.",
@@ -2995,17 +2995,17 @@
   "file-section.error.header": "Ошибка при получении файлов для этого элемента",
 
   // "footer.copyright": "copyright © 2002-{{ year }}",
-  "footer.copyright": "авторское право © 2002-{{ year }}",
+  "footer.copyright": " © 2014-{{ year }}",
 
   // "footer.link.accessibility": "Accessibility settings",
   // TODO New key - Add a translation
   "footer.link.accessibility": "Accessibility settings",
 
   // "footer.link.dspace": "DSpace software",
-  "footer.link.dspace": "Программное обеспечение DSpace",
+  "footer.link.dspace": "Репозиторий БГПУ",
 
   // "footer.link.lyrasis": "LYRASIS",
-  "footer.link.lyrasis": "LYRASIS",
+  "footer.link.lyrasis": "БГПУ",
 
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Настройки файлов cookie",
@@ -3381,10 +3381,10 @@
   "home.title": "Главная",
 
   // "home.top-level-communities.head": "Communities in DSpace",
-  "home.top-level-communities.head": "Сообщества в DSpace",
+  "home.top-level-communities.head": "Разделы",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
-  "home.top-level-communities.help": "Выберите сообщество для просмотра коллекций.",
+  "home.top-level-communities.help": "Выберите раздел для просмотра коллекций.",
 
   // "info.accessibility-settings.breadcrumbs": "Accessibility settings",
   // TODO New key - Add a translation
@@ -5184,7 +5184,7 @@
   "loading.content-source": "Загрузка источника контента...",
 
   // "loading.community": "Loading community...",
-  "loading.community": "Загрузка сообщества...",
+  "loading.community": "Загрузка раздела...",
 
   // "loading.default": "Loading...",
   "loading.default": "Загрузка...",
@@ -5211,10 +5211,10 @@
   "loading.sub-collections": "Загрузка подколлекций...",
 
   // "loading.sub-communities": "Loading sub-communities...",
-  "loading.sub-communities": "Загрузка подсообществ...",
+  "loading.sub-communities": "Загрузка подразделов...",
 
   // "loading.top-level-communities": "Loading top-level communities...",
-  "loading.top-level-communities": "Загрузка сообществ верхнего уровня...",
+  "loading.top-level-communities": "Загрузка разделов верхнего уровня...",
 
   // "login.form.email": "Email address",
   "login.form.email": "Электронная почта",
@@ -5302,7 +5302,7 @@
   "menu.section.admin_search": "Поиск администратора",
 
   // "menu.section.browse_community": "This Community",
-  "menu.section.browse_community": "Это сообщество",
+  "menu.section.browse_community": "Этот раздел",
 
   // "menu.section.browse_community_by_author": "By Author",
   "menu.section.browse_community_by_author": "По автору",
@@ -5314,7 +5314,7 @@
   "menu.section.browse_community_by_title": "По названию",
 
   // "menu.section.browse_global": "All of DSpace",
-  "menu.section.browse_global": "Весь DSpace",
+  "menu.section.browse_global": "Поиск",
 
   // "menu.section.browse_global_by_author": "By Author",
   "menu.section.browse_global_by_author": "По автору",
@@ -5335,7 +5335,7 @@
   "menu.section.browse_global_by_title": "По названию",
 
   // "menu.section.browse_global_communities_and_collections": "Communities & Collections",
-  "menu.section.browse_global_communities_and_collections": "Сообщества и коллекции",
+  "menu.section.browse_global_communities_and_collections": "Разделы и коллекции",
 
   // "menu.section.browse_global_geospatial_map": "By Geolocation (Map)",
   // TODO New key - Add a translation
@@ -5354,7 +5354,7 @@
   "menu.section.edit_collection": "Коллекция",
 
   // "menu.section.edit_community": "Community",
-  "menu.section.edit_community": "Сообщество",
+  "menu.section.edit_community": "Раздел",
 
   // "menu.section.edit_item": "Item",
   "menu.section.edit_item": "Элемент",
@@ -5366,7 +5366,7 @@
   "menu.section.export_collection": "Коллекция",
 
   // "menu.section.export_community": "Community",
-  "menu.section.export_community": "Сообщество",
+  "menu.section.export_community": "Раздел",
 
   // "menu.section.export_item": "Item",
   "menu.section.export_item": "Элемент",
@@ -5435,7 +5435,7 @@
   "menu.section.new_collection": "Коллекция",
 
   // "menu.section.new_community": "Community",
-  "menu.section.new_community": "Сообщество",
+  "menu.section.new_community": "Раздел",
 
   // "menu.section.new_item": "Item",
   "menu.section.new_item": "Элемент",
@@ -5673,7 +5673,7 @@
   "nav.browse.header": "Весь DSpace",
 
   // "nav.community-browse.header": "By Community",
-  "nav.community-browse.header": "По сообществам",
+  "nav.community-browse.header": "По разделам",
 
   // "nav.context-help-toggle": "Toggle context help",
   "nav.context-help-toggle": "Переключить контекстную помощь",
@@ -6836,7 +6836,7 @@
   "resource-policies.add.for.item": "Добавить новую политику элемента",
 
   // "resource-policies.add.for.community": "Add a new Community policy",
-  "resource-policies.add.for.community": "Добавить новую политику сообщества",
+  "resource-policies.add.for.community": "Добавить новую политику раздела",
 
   // "resource-policies.add.for.collection": "Add a new Collection policy",
   "resource-policies.add.for.collection": "Добавить новую политику коллекции",
@@ -7001,7 +7001,7 @@
   "resource-policies.table.headers.title.for.item": "Политики для элемента",
 
   // "resource-policies.table.headers.title.for.community": "Policies for Community",
-  "resource-policies.table.headers.title.for.community": "Политики для сообщества",
+  "resource-policies.table.headers.title.for.community": "Политики для раздела",
 
   // "resource-policies.table.headers.title.for.collection": "Policies for Collection",
   "resource-policies.table.headers.title.for.collection": "Политики для коллекции",
@@ -8957,7 +8957,7 @@
   "subscriptions.collection": "Подписки на коллекции",
 
   // "subscriptions.community": "Subscriptions for communities",
-  "subscriptions.community": "Подписки на сообщества",
+  "subscriptions.community": "Подписки на разделы",
 
   // "subscriptions.subscription_type": "Subscription type",
   "subscriptions.subscription_type": "Тип подписки",
@@ -9055,7 +9055,7 @@
 
   // "subscriptions.table.empty.message": "You do not have any subscriptions at this time. To subscribe to email updates for a community or collection, use the subscription button on the object's page.",
   // TODO Source message changed - Revise the translation
-  "subscriptions.table.empty.message": "У вас нет подписок. Чтобы подписаться на обновления по электронной почте для сообщества или коллекции, используйте кнопку подписки на странице объекта.",
+  "subscriptions.table.empty.message": "У вас нет подписок. Чтобы подписаться на обновления по электронной почте для раздела или коллекции, используйте кнопку подписки на странице объекта.",
 
   // "thumbnail.default.alt": "Thumbnail Image",
   "thumbnail.default.alt": "Изображение-миниатюра",
@@ -9676,7 +9676,7 @@
   "person.orcid-tooltip.not-authenticated": "{{orcid}} (неподтвержден)",
 
   // "home.recent-submissions.head": "Recent Submissions",
-  "home.recent-submissions.head": "Последние отправления",
+  "home.recent-submissions.head": "Новые публикации",
 
   // "listable-notification-object.default-message": "This object couldn't be retrieved",
   "listable-notification-object.default-message": "Не удалось получить этот объект",
